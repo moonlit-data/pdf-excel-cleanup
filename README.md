@@ -179,7 +179,7 @@ filters, real `SUM`/`COUNTA` formulas), the same tables as CSV,
 ## Tests
 
 ```bash
-pytest tests        # 83 tests, no network needed
+pytest tests        # 84 tests, no network needed
 ```
 
 The suite regenerates the demo inputs in a temp dir and verifies: every
