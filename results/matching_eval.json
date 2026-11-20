@@ -1,0 +1,15 @@
+{
+  "names_evaluated": 512,
+  "applied": 486,
+  "auto_correct": 486,
+  "auto_wrong": 0,
+  "review_sent": 12,
+  "ambiguous_sent_to_review": 8,
+  "review_extra": 4,
+  "unknown_flagged": 17,
+  "unknown_misses": 0,
+  "walkin_correct": 1,
+  "walkin_wrong": 0,
+  "precision": 1.0,
+  "recall": 1.0
+}

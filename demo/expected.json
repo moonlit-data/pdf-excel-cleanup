@@ -1,0 +1,1259 @@
+{
+  "reference_date": "2026-04-30",
+  "seed": 20260401,
+  "counts": {
+    "invoice_pdf_files": 125,
+    "text_invoices": 122,
+    "scanned_pdfs": 3,
+    "pos_sheet_rows": 3050,
+    "online_rows": 1974,
+    "problem_rule_count": 14
+  },
+  "invoices": {
+    "NPP-1001": {
+      "date": "2026-02-03",
+      "line_sum": "488.60",
+      "tax": "39.09",
+      "total": "527.69",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "NPP-1002": {
+      "date": "2026-02-07",
+      "line_sum": "482.30",
+      "tax": "38.58",
+      "total": "520.88",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "NPP-1003": {
+      "date": "2026-02-09",
+      "line_sum": "446.40",
+      "tax": "35.71",
+      "total": "482.11",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "NPP-1004": {
+      "date": "2026-02-14",
+      "line_sum": "731.15",
+      "tax": "58.49",
+      "total": "789.64",
+      "n_lines": 8,
+      "kind": "invoice"
+    },
+    "NPP-1005": {
+      "date": "2026-02-15",
+      "line_sum": "527.90",
+      "tax": "42.23",
+      "total": "570.13",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "NPP-1006": {
+      "date": "2026-02-19",
+      "line_sum": "210.75",
+      "tax": "16.86",
+      "total": "227.61",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "NPP-1007": {
+      "date": "2026-02-22",
+      "line_sum": "409.90",
+      "tax": "32.79",
+      "total": "442.69",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "NPP-1008": {
+      "date": "2026-02-27",
+      "line_sum": "1660.30",
+      "tax": "132.82",
+      "total": "1793.12",
+      "n_lines": 15,
+      "kind": "invoice"
+    },
+    "NPP-1009": {
+      "date": "2026-03-01",
+      "line_sum": "2455.90",
+      "tax": "196.47",
+      "total": "2652.37",
+      "n_lines": 19,
+      "kind": "invoice"
+    },
+    "NPP-1010": {
+      "date": "2026-03-04",
+      "line_sum": "765.75",
+      "tax": "61.26",
+      "total": "827.01",
+      "n_lines": 8,
+      "kind": "invoice"
+    },
+    "NPP-1011": {
+      "date": "2026-03-08",
+      "line_sum": "1738.45",
+      "tax": "139.08",
+      "total": "1877.53",
+      "n_lines": 19,
+      "kind": "invoice"
+    },
+    "NPP-1012": {
+      "date": "2026-03-13",
+      "line_sum": "634.50",
+      "tax": "50.76",
+      "total": "685.26",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "NPP-1013": {
+      "date": "2026-03-14",
+      "line_sum": "1147.40",
+      "tax": "91.79",
+      "total": "1239.19",
+      "n_lines": 15,
+      "kind": "invoice"
+    },
+    "NPP-1014": {
+      "date": "2026-03-20",
+      "line_sum": "1690.15",
+      "tax": "135.21",
+      "total": "1825.36",
+      "n_lines": 15,
+      "kind": "invoice"
+    },
+    "NPP-1015": {
+      "date": "2026-03-23",
+      "line_sum": "2006.65",
+      "tax": "160.53",
+      "total": "2167.18",
+      "n_lines": 19,
+      "kind": "invoice"
+    },
+    "NPP-1016": {
+      "date": "2026-03-25",
+      "line_sum": "2032.25",
+      "tax": "162.58",
+      "total": "2194.83",
+      "n_lines": 15,
+      "kind": "invoice"
+    },
+    "NPP-1017": {
+      "date": "2026-03-28",
+      "line_sum": "258.45",
+      "tax": "20.68",
+      "total": "304.13",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "NPP-1018": {
+      "date": "2026-03-31",
+      "line_sum": "530.10",
+      "tax": "42.41",
+      "total": "572.51",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "NPP-1019": {
+      "date": "2026-04-06",
+      "line_sum": "464.60",
+      "tax": "37.17",
+      "total": "501.77",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "NPP-1020": {
+      "date": "2026-04-09",
+      "line_sum": "145.20",
+      "tax": "11.62",
+      "total": "156.82",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "NPP-1021": {
+      "date": "2026-04-11",
+      "line_sum": "2011.60",
+      "tax": "160.93",
+      "total": "2172.53",
+      "n_lines": 19,
+      "kind": "invoice"
+    },
+    "NPP-1022": {
+      "date": "2026-04-14",
+      "line_sum": "1442.00",
+      "tax": "115.36",
+      "total": "1557.36",
+      "n_lines": 19,
+      "kind": "invoice"
+    },
+    "NPP-1023": {
+      "date": "2026-04-18",
+      "line_sum": "1664.90",
+      "tax": "133.19",
+      "total": "1798.09",
+      "n_lines": 15,
+      "kind": "invoice"
+    },
+    "NPP-1024": {
+      "date": "2026-04-21",
+      "line_sum": "567.25",
+      "tax": "45.38",
+      "total": "612.63",
+      "n_lines": 8,
+      "kind": "invoice"
+    },
+    "BHS-2001": {
+      "date": "2026-02-04",
+      "line_sum": "1244.59",
+      "tax": "0",
+      "total": "1244.59",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "BHS-2002": {
+      "date": "2026-02-05",
+      "line_sum": "499.65",
+      "tax": "0",
+      "total": "499.65",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "BHS-2003": {
+      "date": "2026-02-08",
+      "line_sum": "1343.31",
+      "tax": "0",
+      "total": "1343.31",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "BHS-2004": {
+      "date": "2026-02-14",
+      "line_sum": "605.70",
+      "tax": "0",
+      "total": "605.70",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "BHS-2005": {
+      "date": "2026-02-15",
+      "line_sum": "1039.78",
+      "tax": "0",
+      "total": "1039.78",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "BHS-2006": {
+      "date": "2026-02-19",
+      "line_sum": "808.70",
+      "tax": "0",
+      "total": "808.70",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "BHS-2007": {
+      "date": "2026-02-24",
+      "line_sum": "356.95",
+      "tax": "0",
+      "total": "356.95",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "BHS-2008": {
+      "date": "2026-02-26",
+      "line_sum": "167.55",
+      "tax": "0",
+      "total": "167.55",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "BHS-2009": {
+      "date": "2026-03-01",
+      "line_sum": "859.00",
+      "tax": "0",
+      "total": "859.00",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "BHS-2010": {
+      "date": "2026-03-06",
+      "line_sum": "863.07",
+      "tax": "0",
+      "total": "863.07",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "BHS-2011": {
+      "date": "2026-03-08",
+      "line_sum": "128.25",
+      "tax": "0",
+      "total": "128.25",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "BHS-2012": {
+      "date": "2026-03-12",
+      "line_sum": "1448.54",
+      "tax": "0",
+      "total": "1448.54",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "BHS-2013": {
+      "date": "2026-03-15",
+      "line_sum": "799.85",
+      "tax": "0",
+      "total": "799.85",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "BHS-2014": {
+      "date": "2026-03-20",
+      "line_sum": "473.10",
+      "tax": "0",
+      "total": "473.10",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "BHS-2015": {
+      "date": "2026-03-23",
+      "line_sum": "399.00",
+      "tax": "0",
+      "total": "399.00",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "BHS-2016": {
+      "date": "2026-03-27",
+      "line_sum": "274.65",
+      "tax": "0",
+      "total": "274.65",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "BHS-2017": {
+      "date": "2026-03-29",
+      "line_sum": "435.50",
+      "tax": "0",
+      "total": "435.50",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "BHS-2018": {
+      "date": "2026-04-01",
+      "line_sum": "798.60",
+      "tax": "0",
+      "total": "798.60",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "BHS-2019": {
+      "date": "2026-04-05",
+      "line_sum": "1157.19",
+      "tax": "0",
+      "total": "1157.19",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "BHS-2020": {
+      "date": "2026-04-07",
+      "line_sum": "561.70",
+      "tax": "0",
+      "total": "561.70",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "BHS-2021": {
+      "date": "2026-04-12",
+      "line_sum": "1247.11",
+      "tax": "0",
+      "total": "1247.11",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "BHS-2022": {
+      "date": "2026-04-14",
+      "line_sum": "1122.40",
+      "tax": "0",
+      "total": "1122.40",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "BHS-2023": {
+      "date": "2026-04-19",
+      "line_sum": "496.30",
+      "tax": "0",
+      "total": "496.30",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "BHS-2024": {
+      "date": "2026-04-23",
+      "line_sum": "679.05",
+      "tax": "0",
+      "total": "679.05",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "AES-3101": {
+      "date": "2026-02-04",
+      "line_sum": "123.70",
+      "tax": "0",
+      "total": "123.70",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "AES-3102": {
+      "date": "2026-02-05",
+      "line_sum": "699.35",
+      "tax": "0",
+      "total": "699.35",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "AES-3103": {
+      "date": "2026-02-08",
+      "line_sum": "276.65",
+      "tax": "0",
+      "total": "276.65",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "AES-3104": {
+      "date": "2026-02-14",
+      "line_sum": "358.50",
+      "tax": "0",
+      "total": "358.50",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "AES-3105": {
+      "date": "2026-02-17",
+      "line_sum": "136.50",
+      "tax": "0",
+      "total": "136.50",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "AES-3106": {
+      "date": "2026-02-19",
+      "line_sum": "163.80",
+      "tax": "0",
+      "total": "163.80",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "AES-3107": {
+      "date": "2026-02-23",
+      "line_sum": "472.90",
+      "tax": "0",
+      "total": "472.90",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "AES-3108": {
+      "date": "2026-02-27",
+      "line_sum": "228.20",
+      "tax": "0",
+      "total": "228.20",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "AES-3109": {
+      "date": "2026-03-02",
+      "line_sum": "171.00",
+      "tax": "0",
+      "total": "171.00",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "AES-3110": {
+      "date": "2026-03-04",
+      "line_sum": "442.55",
+      "tax": "0",
+      "total": "442.55",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "AES-3111": {
+      "date": "2026-03-10",
+      "line_sum": "61.35",
+      "tax": "0",
+      "total": "61.35",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "AES-3112": {
+      "date": "2026-03-12",
+      "line_sum": "509.25",
+      "tax": "0",
+      "total": "509.25",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "AES-3113": {
+      "date": "2026-03-15",
+      "line_sum": "841.55",
+      "tax": "0",
+      "total": "841.55",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "AES-3114": {
+      "date": "2026-03-19",
+      "line_sum": "650.00",
+      "tax": "0",
+      "total": "650.00",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "AES-3115": {
+      "date": "2026-03-22",
+      "line_sum": "518.30",
+      "tax": "0",
+      "total": "518.30",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "AES-3116": {
+      "date": "2026-03-27",
+      "line_sum": "333.50",
+      "tax": "0",
+      "total": "333.50",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "AES-3117": {
+      "date": "2026-03-30",
+      "line_sum": "523.80",
+      "tax": "0",
+      "total": "523.80",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "AES-3118": {
+      "date": "2026-03-31",
+      "line_sum": "104.90",
+      "tax": "0",
+      "total": "104.90",
+      "n_lines": 2,
+      "kind": "invoice"
+    },
+    "AES-3119": {
+      "date": "2026-04-05",
+      "line_sum": "133.35",
+      "tax": "0",
+      "total": "133.35",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "AES-3120": {
+      "date": "2026-04-09",
+      "line_sum": "555.85",
+      "tax": "0",
+      "total": "555.85",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "AES-3121": {
+      "date": "2026-04-13",
+      "line_sum": "220.55",
+      "tax": "0",
+      "total": "220.55",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "AES-3122": {
+      "date": "2026-05-18",
+      "line_sum": "606.50",
+      "tax": "0",
+      "total": "606.50",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "AES-3123": {
+      "date": "2026-04-17",
+      "line_sum": "400.90",
+      "tax": "0",
+      "total": "400.90",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "AES-3124": {
+      "date": "2026-04-22",
+      "line_sum": "188.85",
+      "tax": "0",
+      "total": "188.85",
+      "n_lines": 3,
+      "kind": "invoice"
+    },
+    "MPS-2201": {
+      "date": "2026-02-02",
+      "line_sum": "662.19",
+      "tax": "0",
+      "total": "662.19",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "MPS-2202": {
+      "date": "2026-02-07",
+      "line_sum": "613.14",
+      "tax": "0",
+      "total": "613.14",
+      "n_lines": 7,
+      "kind": "invoice"
+    },
+    "MPS-2203": {
+      "date": "2026-02-08",
+      "line_sum": "523.56",
+      "tax": "0",
+      "total": "523.56",
+      "n_lines": 7,
+      "kind": "invoice"
+    },
+    "MPS-2204": {
+      "date": "2026-02-12",
+      "line_sum": "320.88",
+      "tax": "0",
+      "total": "320.88",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "MPS-2205": {
+      "date": "2026-02-16",
+      "line_sum": "742.32",
+      "tax": "0",
+      "total": "742.32",
+      "n_lines": 7,
+      "kind": "invoice"
+    },
+    "MPS-2206": {
+      "date": "2026-02-19",
+      "line_sum": "165.33",
+      "tax": "0",
+      "total": "165.33",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "MPS-2207": {
+      "date": "2026-02-24",
+      "line_sum": "397.06",
+      "tax": "0",
+      "total": "397.06",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "MPS-2208": {
+      "date": "2026-02-27",
+      "line_sum": "675.67",
+      "tax": "0",
+      "total": "675.67",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "MPS-2209": {
+      "date": "2026-03-02",
+      "line_sum": "1024.92",
+      "tax": "0",
+      "total": "1024.92",
+      "n_lines": 8,
+      "kind": "invoice"
+    },
+    "MPS-2210": {
+      "date": "2026-03-05",
+      "line_sum": "393.45",
+      "tax": "0",
+      "total": "393.45",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "MPS-2211": {
+      "date": "2026-03-09",
+      "line_sum": "625.78",
+      "tax": "0",
+      "total": "625.78",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "MPS-2212": {
+      "date": "2026-03-11",
+      "line_sum": "345.58",
+      "tax": "0",
+      "total": "345.58",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "MPS-2213": {
+      "date": "2026-03-15",
+      "line_sum": "125.15",
+      "tax": "0",
+      "total": "125.15",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "MPS-2214": {
+      "date": "2026-03-19",
+      "line_sum": "637.42",
+      "tax": "0",
+      "total": "637.42",
+      "n_lines": 5,
+      "kind": "invoice"
+    },
+    "MPS-2215": {
+      "date": "2026-03-21",
+      "line_sum": "294.44",
+      "tax": "0",
+      "total": "294.44",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "MPS-2216": {
+      "date": "2026-03-25",
+      "line_sum": "383.17",
+      "tax": "0",
+      "total": "383.17",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "MPS-2217": {
+      "date": "2026-03-30",
+      "line_sum": "164.40",
+      "tax": "0",
+      "total": "164.40",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "MPS-2218": {
+      "date": "2026-03-31",
+      "line_sum": "659.71",
+      "tax": "0",
+      "total": "659.71",
+      "n_lines": 7,
+      "kind": "invoice"
+    },
+    "MPS-2219": {
+      "date": "2026-04-06",
+      "line_sum": "706.72",
+      "tax": "0",
+      "total": "706.72",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "MPS-2220": {
+      "date": "2026-04-09",
+      "line_sum": "152.20",
+      "tax": "0",
+      "total": "152.20",
+      "n_lines": 4,
+      "kind": "invoice"
+    },
+    "MPS-2221": {
+      "date": "2026-04-13",
+      "line_sum": "593.85",
+      "tax": "0",
+      "total": "593.85",
+      "n_lines": 7,
+      "kind": "invoice"
+    },
+    "MPS-2222": {
+      "date": "2026-04-16",
+      "line_sum": "322.09",
+      "tax": "0",
+      "total": "322.09",
+      "n_lines": 8,
+      "kind": "invoice"
+    },
+    "MPS-2223": {
+      "date": "2026-04-17",
+      "line_sum": "660.31",
+      "tax": "0",
+      "total": "660.31",
+      "n_lines": 8,
+      "kind": "invoice"
+    },
+    "MPS-2224": {
+      "date": "2026-04-22",
+      "line_sum": "1226.27",
+      "tax": "0",
+      "total": "1226.27",
+      "n_lines": 6,
+      "kind": "invoice"
+    },
+    "CRS-5101": {
+      "date": "2026-02-03",
+      "line_sum": "446.10",
+      "tax": "0",
+      "total": "-446.10",
+      "n_lines": 3,
+      "kind": "credit_note"
+    },
+    "CRS-5102": {
+      "date": "2026-02-06",
+      "line_sum": "455.10",
+      "tax": "0",
+      "total": "-455.10",
+      "n_lines": 3,
+      "kind": "credit_note"
+    },
+    "CRS-5103": {
+      "date": "2026-02-08",
+      "line_sum": "1562.20",
+      "tax": "0",
+      "total": "-1562.20",
+      "n_lines": 3,
+      "kind": "credit_note"
+    },
+    "CRS-5104": {
+      "date": "2026-02-13",
+      "line_sum": "290.00",
+      "tax": "0",
+      "total": "-290.00",
+      "n_lines": 2,
+      "kind": "credit_note"
+    },
+    "CRS-5105": {
+      "date": "2026-02-16",
+      "line_sum": "752.80",
+      "tax": "0",
+      "total": "-752.80",
+      "n_lines": 4,
+      "kind": "credit_note"
+    },
+    "CRS-5106": {
+      "date": "2026-02-21",
+      "line_sum": "1061.20",
+      "tax": "0",
+      "total": "-1061.20",
+      "n_lines": 4,
+      "kind": "credit_note"
+    },
+    "CRS-5107": {
+      "date": "2026-02-22",
+      "line_sum": "528.00",
+      "tax": "0",
+      "total": "-528.00",
+      "n_lines": 2,
+      "kind": "credit_note"
+    },
+    "CRS-5108": {
+      "date": "2026-02-27",
+      "line_sum": "1439.69",
+      "tax": "0",
+      "total": "-1439.69",
+      "n_lines": 5,
+      "kind": "credit_note"
+    },
+    "CRS-5109": {
+      "date": "2026-03-01",
+      "line_sum": "279.60",
+      "tax": "0",
+      "total": "-279.60",
+      "n_lines": 2,
+      "kind": "credit_note"
+    },
+    "CRS-5110": {
+      "date": "2026-03-06",
+      "line_sum": "1866.50",
+      "tax": "0",
+      "total": "-1866.50",
+      "n_lines": 6,
+      "kind": "credit_note"
+    },
+    "CRS-5111": {
+      "date": "2026-03-09",
+      "line_sum": "806.82",
+      "tax": "0",
+      "total": "-806.82",
+      "n_lines": 6,
+      "kind": "credit_note"
+    },
+    "CRS-5112": {
+      "date": "2026-03-11",
+      "line_sum": "312.50",
+      "tax": "0",
+      "total": "-312.50",
+      "n_lines": 2,
+      "kind": "credit_note"
+    },
+    "CRS-5113": {
+      "date": "2026-03-15",
+      "line_sum": "488.43",
+      "tax": "0",
+      "total": "-488.43",
+      "n_lines": 3,
+      "kind": "credit_note"
+    },
+    "CRS-5114": {
+      "date": "2026-03-20",
+      "line_sum": "1261.87",
+      "tax": "0",
+      "total": "-1261.87",
+      "n_lines": 6,
+      "kind": "credit_note"
+    },
+    "CRS-5115": {
+      "date": "2026-03-21",
+      "line_sum": "469.97",
+      "tax": "0",
+      "total": "-469.97",
+      "n_lines": 2,
+      "kind": "credit_note"
+    },
+    "CRS-5116": {
+      "date": "2026-03-26",
+      "line_sum": "344.50",
+      "tax": "0",
+      "total": "-344.50",
+      "n_lines": 2,
+      "kind": "credit_note"
+    },
+    "CRS-5117": {
+      "date": "2026-03-29",
+      "line_sum": "997.22",
+      "tax": "0",
+      "total": "-997.22",
+      "n_lines": 3,
+      "kind": "credit_note"
+    },
+    "CRS-5118": {
+      "date": "2026-04-01",
+      "line_sum": "470.00",
+      "tax": "0",
+      "total": "-470.00",
+      "n_lines": 4,
+      "kind": "credit_note"
+    },
+    "CRS-5119": {
+      "date": "2026-04-05",
+      "line_sum": "971.44",
+      "tax": "0",
+      "total": "-971.44",
+      "n_lines": 4,
+      "kind": "credit_note"
+    },
+    "CRS-5120": {
+      "date": "2026-04-07",
+      "line_sum": "1296.06",
+      "tax": "0",
+      "total": "-1296.06",
+      "n_lines": 4,
+      "kind": "credit_note"
+    },
+    "CRS-5121": {
+      "date": "2026-04-13",
+      "line_sum": "524.95",
+      "tax": "0",
+      "total": "-524.95",
+      "n_lines": 2,
+      "kind": "credit_note"
+    },
+    "CRS-5122": {
+      "date": "2026-04-14",
+      "line_sum": "322.15",
+      "tax": "0",
+      "total": "-322.15",
+      "n_lines": 2,
+      "kind": "credit_note"
+    },
+    "CRS-5123": {
+      "date": "2026-04-18",
+      "line_sum": "1277.66",
+      "tax": "0",
+      "total": "-1277.66",
+      "n_lines": 6,
+      "kind": "credit_note"
+    },
+    "CRS-5124": {
+      "date": "2026-04-23",
+      "line_sum": "1269.65",
+      "tax": "0",
+      "total": "-1269.65",
+      "n_lines": 5,
+      "kind": "credit_note"
+    }
+  },
+  "problems": {
+    "duplicate_invoice": {
+      "count": 2,
+      "ids": [
+        "CRS-5107",
+        "MPS-2209"
+      ]
+    },
+    "invoice_total_mismatch": {
+      "count": 1,
+      "ids": [
+        "NPP-1017"
+      ]
+    },
+    "vendor_tax_id_mismatch": {
+      "count": 1,
+      "ids": [
+        "BHS-2011"
+      ]
+    },
+    "future_invoice_date": {
+      "count": 1,
+      "ids": [
+        "AES-3122"
+      ]
+    },
+    "scanned_pdf": {
+      "count": 3,
+      "ids": [
+        "scan_001.pdf",
+        "scan_002.pdf",
+        "scan_003.pdf"
+      ]
+    },
+    "duplicate_sales_row": {
+      "count": 18,
+      "ids": [
+        "ONL-90298",
+        "ONL-90408",
+        "ONL-90430",
+        "POS-R1243",
+        "POS-R1293",
+        "POS-R1307",
+        "POS-R142",
+        "POS-R1864",
+        "POS-R2089",
+        "POS-R2364",
+        "POS-R2505",
+        "POS-R2671",
+        "POS-R2757",
+        "POS-R566",
+        "POS-R606",
+        "POS-R892",
+        "POS-R955",
+        "POS-R968"
+      ]
+    },
+    "negative_quantity": {
+      "count": 8,
+      "ids": [
+        "POS-R1055",
+        "POS-R1362",
+        "POS-R1434",
+        "POS-R1823",
+        "POS-R214",
+        "POS-R2340",
+        "POS-R675",
+        "POS-R708"
+      ]
+    },
+    "unparseable_amount": {
+      "count": 6,
+      "ids": [
+        "POS-R1223",
+        "POS-R1553",
+        "POS-R1558",
+        "POS-R1589",
+        "POS-R1903",
+        "POS-R2901"
+      ]
+    },
+    "subtotal_row_dropped": {
+      "count": 12,
+      "ids": [
+        "POS-R1020",
+        "POS-R1273",
+        "POS-R1527",
+        "POS-R1780",
+        "POS-R2033",
+        "POS-R2286",
+        "POS-R2540",
+        "POS-R258",
+        "POS-R2795",
+        "POS-R3047",
+        "POS-R510",
+        "POS-R765"
+      ]
+    },
+    "blank_row": {
+      "count": 16,
+      "ids": [
+        "POS-R1141",
+        "POS-R126",
+        "POS-R1346",
+        "POS-R1548",
+        "POS-R1749",
+        "POS-R1952",
+        "POS-R2155",
+        "POS-R2357",
+        "POS-R2561",
+        "POS-R2764",
+        "POS-R2966",
+        "POS-R3048",
+        "POS-R329",
+        "POS-R531",
+        "POS-R734",
+        "POS-R937"
+      ]
+    },
+    "metadata_row_dropped": {
+      "count": 2,
+      "ids": [
+        "POS-R3049",
+        "POS-R3050"
+      ]
+    },
+    "refund_without_sale": {
+      "count": 8,
+      "ids": [
+        "ONL-91901",
+        "ONL-91902",
+        "ONL-91903",
+        "ONL-91904",
+        "ONL-91905",
+        "ONL-91906",
+        "ONL-91907",
+        "ONL-91908"
+      ]
+    },
+    "refund_sign_invalid": {
+      "count": 2,
+      "ids": [
+        "ONL-91334",
+        "ONL-91573"
+      ]
+    },
+    "refund_line_mismatch": {
+      "count": 1,
+      "ids": [
+        "ONL-90200"
+      ]
+    }
+  },
+  "matching": {
+    "typo": [
+      "Beacon Bilycles",
+      "Beacon Bkcycles",
+      "Beacon Hardwrae",
+      "Birchowod Bakery",
+      "Birchwoo dBrewing",
+      "Birchwood Bakrey",
+      "Birchwood Buthcery",
+      "Birchwood Outfittres",
+      "Bircwhood Bakery",
+      "Cedar Biyccles",
+      "Cedar Chesee Shop",
+      "Cedar Dei",
+      "Cedau Deli",
+      "Copper Bvkery",
+      "Drift Brewig",
+      "DuneGarage",
+      "Elm Boks",
+      "Elm Book",
+      "Elm Boos",
+      "Elm Brwing",
+      "Elm Prin tShop",
+      "Foxgloev Market",
+      "Foxglove Cleanzrs",
+      "Foxglove Pharamcy",
+      "Foxjlove Cleaners",
+      "Granite Bkery",
+      "GraniteCleaners",
+      "Granvte Deli",
+      "Hollow Hardwrae",
+      "Hollow Hatdware",
+      "Hollow Hrdware",
+      "Hollow ardware",
+      "Iron Clizic",
+      "Iron Floris",
+      "Iron Nnrsery",
+      "Iron Nusery",
+      "Iron Photo Stdio",
+      "Juniepr Pharmacy",
+      "Juniper Ttatoo",
+      "Kestrl Butchery",
+      "Kestrll Print Shop",
+      "Larkspr Dental",
+      "Larkspun Veterinary",
+      "Larkspur Denbal",
+      "Larkspur Outfiters",
+      "Larkspur Vetrinary",
+      "Larkspur eterinary",
+      "LarkspurCheese Shop",
+      "Larksur Market",
+      "Meado Pharmacy",
+      "Meado wFlorist",
+      "Meado wOutfitters",
+      "Meadow Pharamcy",
+      "Meadow aHrdware",
+      "Meaodw Florist",
+      "Nortghate Cafe",
+      "Northgate Vteerinary",
+      "Northgate lattoo",
+      "Northgate nattoo",
+      "NorthgatexCafe",
+      "Northgatw Cafe",
+      "Ospret Books",
+      "Osprey Haodware",
+      "Plover Bicyclxs",
+      "Plover Bicylces",
+      "Plover Biycles",
+      "Plover Nursey",
+      "Plover Outfitrers",
+      "Quarcy Clinic",
+      "Quarr yFlorist",
+      "Quarry Ontfitters",
+      "Quarry Otufitters",
+      "Quarry Outfittcrs",
+      "QuarryF lorist",
+      "QuarryMarket",
+      "Quarwy Market",
+      "Quary Outfitters",
+      "Riverben dPrint Shop",
+      "Riverbend Dntal",
+      "Riverbend Prine Shop",
+      "Timbeline Cleaners",
+      "Timberilne Outfitters",
+      "Timberline Brewng",
+      "Timberline Grage",
+      "TimberlineT attoo",
+      "Timbreline Garage",
+      "Verdant Cleaenrs",
+      "Willaw Bakery",
+      "Willo Market",
+      "Willow Brwing",
+      "Willow harmacy",
+      "WillowMarket",
+      "Willoz Market",
+      "Wiltow Bakery",
+      "Yellowfi Cafe",
+      "Yellowfin Chesee Shop",
+      "Yelowfin Bakery",
+      "Zephyr Cleanrs",
+      "Zephyr Phtoo Studio"
+    ],
+    "ambiguous": [
+      "Kestrel Ba",
+      "Kestrel Bu",
+      "Meadow Ph",
+      "Meadow Pho",
+      "Riverbend Bo",
+      "Riverbend Bou",
+      "Timberline De",
+      "Timberline Den"
+    ],
+    "unknown": [
+      "Brevik Depot",
+      "Brevik Odd Lots",
+      "Brevik Supply Hut",
+      "Brevik Trading Co",
+      "Dunmarrow Supply Hut",
+      "Hallowick Works",
+      "Solmara Depot",
+      "Solmara Works",
+      "Tarnside Depot",
+      "Umberton Depot",
+      "Umberton Trading Co",
+      "Umberton Works",
+      "Vexmoor Odd Lots",
+      "Zelkara Depot",
+      "Zelkara Odd Lots",
+      "Zelkara Trading Co",
+      "Zelkara Works"
+    ]
+  }
+}

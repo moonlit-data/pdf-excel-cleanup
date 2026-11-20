@@ -1,0 +1,7 @@
+rule,count
+date_format_fixed,2411
+region_normalized,1928
+number_format_fixed,1266
+product_name_fixed,604
+name_case_fixed,432
+name_normalized,267

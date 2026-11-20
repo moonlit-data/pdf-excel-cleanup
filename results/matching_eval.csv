@@ -1,0 +1,513 @@
+raw_name,planted_kind,truth,method,matched_id,matched_name,score,verdict
+BEACON BICYCLES,case,C-0001,exact,C-0001,Beacon Bicycles,100.0,auto_correct
+BEACON MARKET,case,C-0003,exact,C-0003,Beacon Market,100.0,auto_correct
+BIRCHWOOD MARKET,case,C-0007,exact,C-0007,Birchwood Market,100.0,auto_correct
+BIRCHWOOD OUTFITTERS,case,C-0008,exact,C-0008,Birchwood Outfitters,100.0,auto_correct
+Beacon  Hardware,punct,C-0002,exact,C-0002,Beacon Hardware,100.0,auto_correct
+Beacon Bicycles,normal,C-0001,exact,C-0001,Beacon Bicycles,100.0,auto_correct
+Beacon Bicycles Co.,suffix,C-0001,exact,C-0001,Beacon Bicycles,100.0,auto_correct
+Beacon Bicycles Inc,suffix,C-0001,exact,C-0001,Beacon Bicycles,100.0,auto_correct
+Beacon Bilycles,typo,C-0001,fuzzy_auto,C-0001,Beacon Bicycles,93.3,auto_correct
+Beacon Bkcycles,typo,C-0001,fuzzy_auto,C-0001,Beacon Bicycles,93.3,auto_correct
+Beacon Hardware,normal,C-0002,exact,C-0002,Beacon Hardware,100.0,auto_correct
+Beacon Hardwrae,typo,C-0002,fuzzy_auto,C-0002,Beacon Hardware,93.3,auto_correct
+Beacon Market,normal,C-0003,exact,C-0003,Beacon Market,100.0,auto_correct
+Beacon/Hardware,punct,C-0002,exact,C-0002,Beacon Hardware,100.0,auto_correct
+Birchowod Bakery,typo,C-0004,fuzzy_auto,C-0004,Birchwood Bakery,93.8,auto_correct
+Birchwoo dBrewing,typo,C-0005,fuzzy_auto,C-0005,Birchwood Brewing,94.1,auto_correct
+Birchwood  Market,punct,C-0007,exact,C-0007,Birchwood Market,100.0,auto_correct
+Birchwood Bakery,normal,C-0004,exact,C-0004,Birchwood Bakery,100.0,auto_correct
+Birchwood Bakrey,typo,C-0004,fuzzy_auto,C-0004,Birchwood Bakery,93.8,auto_correct
+Birchwood Brewing,normal,C-0005,exact,C-0005,Birchwood Brewing,100.0,auto_correct
+Birchwood Brewing Co.,suffix,C-0005,exact,C-0005,Birchwood Brewing,100.0,auto_correct
+Birchwood Brewing Inc,suffix,C-0005,exact,C-0005,Birchwood Brewing,100.0,auto_correct
+Birchwood Butchery,normal,C-0006,exact,C-0006,Birchwood Butchery,100.0,auto_correct
+Birchwood Buthcery,typo,C-0006,fuzzy_auto,C-0006,Birchwood Butchery,94.4,auto_correct
+Birchwood Market,normal,C-0007,exact,C-0007,Birchwood Market,100.0,auto_correct
+Birchwood Market Ltd,suffix,C-0007,exact,C-0007,Birchwood Market,100.0,auto_correct
+Birchwood Outfitters,normal,C-0008,exact,C-0008,Birchwood Outfitters,100.0,auto_correct
+Birchwood Outfitters Ltd,suffix,C-0008,exact,C-0008,Birchwood Outfitters,100.0,auto_correct
+Birchwood Outfittres,typo,C-0008,fuzzy_auto,C-0008,Birchwood Outfitters,95.0,auto_correct
+Birchwood-Bakery,punct,C-0004,exact,C-0004,Birchwood Bakery,100.0,auto_correct
+Birchwood-Market,punct,C-0007,exact,C-0007,Birchwood Market,100.0,auto_correct
+Birchwood/Brewing,punct,C-0005,exact,C-0005,Birchwood Brewing,100.0,auto_correct
+Bircwhood Bakery,typo,C-0004,fuzzy_auto,C-0004,Birchwood Bakery,93.8,auto_correct
+Brevik Depot,unknown,UNKNOWN,unknown,,,48.3,unknown_correct
+Brevik Odd Lots,unknown,UNKNOWN,unknown,,,45.7,unknown_correct
+Brevik Supply Hut,unknown,UNKNOWN,unknown,,,41.2,unknown_correct
+Brevik Trading Co,unknown,UNKNOWN,unknown,,,51.9,unknown_correct
+CEDAR BOUTIQUE,case,C-0011,exact,C-0011,Cedar Boutique,100.0,auto_correct
+CEDAR CHEESE SHOP,case,C-0012,exact,C-0012,Cedar Cheese Shop,100.0,auto_correct
+CEDAR CLEANERS,case,C-0013,exact,C-0013,Cedar Cleaners,100.0,auto_correct
+CEDAR HARDWARE,case,C-0015,exact,C-0015,Cedar Hardware,100.0,auto_correct
+COPPER BAKERY,case,C-0016,exact,C-0016,Copper Bakery,100.0,auto_correct
+Cedar  Boutique,punct,C-0011,exact,C-0011,Cedar Boutique,100.0,auto_correct
+Cedar  Cheese Shop,punct,C-0012,exact,C-0012,Cedar Cheese Shop,100.0,auto_correct
+Cedar  Deli,punct,C-0014,exact,C-0014,Cedar Deli,100.0,auto_correct
+Cedar  Hardware,punct,C-0015,exact,C-0015,Cedar Hardware,100.0,auto_correct
+Cedar Bicycles,normal,C-0009,exact,C-0009,Cedar Bicycles,100.0,auto_correct
+Cedar Bicycles Inc,suffix,C-0009,exact,C-0009,Cedar Bicycles,100.0,auto_correct
+Cedar Biyccles,typo,C-0009,fuzzy_auto,C-0009,Cedar Bicycles,92.9,auto_correct
+Cedar Books,normal,C-0010,exact,C-0010,Cedar Books,100.0,auto_correct
+Cedar Boutique,normal,C-0011,exact,C-0011,Cedar Boutique,100.0,auto_correct
+Cedar Cheese Shop,normal,C-0012,exact,C-0012,Cedar Cheese Shop,100.0,auto_correct
+Cedar Chesee Shop,typo,C-0012,fuzzy_auto,C-0012,Cedar Cheese Shop,94.1,auto_correct
+Cedar Cleaners,normal,C-0013,exact,C-0013,Cedar Cleaners,100.0,auto_correct
+Cedar Dei,typo,C-0014,fuzzy_auto,C-0014,Cedar Deli,94.7,auto_correct
+Cedar Deli,normal,C-0014,exact,C-0014,Cedar Deli,100.0,auto_correct
+Cedar Deli LLC,suffix,C-0014,exact,C-0014,Cedar Deli,100.0,auto_correct
+Cedar Hardware,normal,C-0015,exact,C-0015,Cedar Hardware,100.0,auto_correct
+Cedau Deli,typo,C-0014,fuzzy_auto,C-0014,Cedar Deli,90.0,auto_correct
+Copper Bakery,normal,C-0016,exact,C-0016,Copper Bakery,100.0,auto_correct
+Copper Bicycles,normal,C-0017,exact,C-0017,Copper Bicycles,100.0,auto_correct
+Copper Bicycles Co.,suffix,C-0017,exact,C-0017,Copper Bicycles,100.0,auto_correct
+Copper Bicycles Ltd,suffix,C-0017,exact,C-0017,Copper Bicycles,100.0,auto_correct
+Copper Bvkery,typo,C-0016,fuzzy_auto,C-0016,Copper Bakery,92.3,auto_correct
+DUNE CAFE,case,C-0021,exact,C-0021,Dune Cafe,100.0,auto_correct
+DUNE GARAGE,case,C-0022,exact,C-0022,Dune Garage,100.0,auto_correct
+Drift Brewig,typo,C-0018,fuzzy_auto,C-0018,Drift Brewing,96.0,auto_correct
+Drift Brewing,normal,C-0018,exact,C-0018,Drift Brewing,100.0,auto_correct
+Drift Nursery,normal,C-0019,exact,C-0019,Drift Nursery,100.0,auto_correct
+Drift Nursery Ltd,suffix,C-0019,exact,C-0019,Drift Nursery,100.0,auto_correct
+Drift Veterinary,normal,C-0020,exact,C-0020,Drift Veterinary,100.0,auto_correct
+Drift Veterinary Ltd,suffix,C-0020,exact,C-0020,Drift Veterinary,100.0,auto_correct
+Dune Cafe,normal,C-0021,exact,C-0021,Dune Cafe,100.0,auto_correct
+Dune Garage,normal,C-0022,exact,C-0022,Dune Garage,100.0,auto_correct
+Dune Garage Co.,suffix,C-0022,exact,C-0022,Dune Garage,100.0,auto_correct
+DuneGarage,typo,C-0022,fuzzy_auto,C-0022,Dune Garage,95.2,auto_correct
+Dunmarrow Supply Hut,unknown,UNKNOWN,unknown,,,45.7,unknown_correct
+ELM BOOKS,case,C-0023,exact,C-0023,Elm Books,100.0,auto_correct
+ELM BREWING,case,C-0024,exact,C-0024,Elm Brewing,100.0,auto_correct
+ELM NURSERY,case,C-0025,exact,C-0025,Elm Nursery,100.0,auto_correct
+ELM PRINT SHOP,case,C-0026,exact,C-0026,Elm Print Shop,100.0,auto_correct
+Elm Boks,typo,C-0023,fuzzy_auto,C-0023,Elm Books,94.1,auto_correct
+Elm Book,typo,C-0023,fuzzy_auto,C-0023,Elm Books,94.1,auto_correct
+Elm Books,normal,C-0023,exact,C-0023,Elm Books,100.0,auto_correct
+Elm Boos,typo,C-0023,fuzzy_auto,C-0023,Elm Books,94.1,auto_correct
+Elm Brewing,normal,C-0024,exact,C-0024,Elm Brewing,100.0,auto_correct
+Elm Brewing Inc,suffix,C-0024,exact,C-0024,Elm Brewing,100.0,auto_correct
+Elm Brwing,typo,C-0024,fuzzy_auto,C-0024,Elm Brewing,95.2,auto_correct
+Elm Nursery,normal,C-0025,exact,C-0025,Elm Nursery,100.0,auto_correct
+Elm Nursery Inc,suffix,C-0025,exact,C-0025,Elm Nursery,100.0,auto_correct
+Elm Nursery Ltd,suffix,C-0025,exact,C-0025,Elm Nursery,100.0,auto_correct
+Elm Prin tShop,typo,C-0026,fuzzy_auto,C-0026,Elm Print Shop,92.9,auto_correct
+Elm Print Shop,normal,C-0026,exact,C-0026,Elm Print Shop,100.0,auto_correct
+Elm/Brewing,punct,C-0024,exact,C-0024,Elm Brewing,100.0,auto_correct
+FOXGLOVE BREWING,case,C-0027,exact,C-0027,Foxglove Brewing,100.0,auto_correct
+FOXGLOVE CLEANERS,case,C-0028,exact,C-0028,Foxglove Cleaners,100.0,auto_correct
+FOXGLOVE MARKET,case,C-0029,exact,C-0029,Foxglove Market,100.0,auto_correct
+Foxgloev Market,typo,C-0029,fuzzy_auto,C-0029,Foxglove Market,93.3,auto_correct
+Foxglove  Market,punct,C-0029,exact,C-0029,Foxglove Market,100.0,auto_correct
+Foxglove Brewing,normal,C-0027,exact,C-0027,Foxglove Brewing,100.0,auto_correct
+Foxglove Cleaners,normal,C-0028,exact,C-0028,Foxglove Cleaners,100.0,auto_correct
+Foxglove Cleanzrs,typo,C-0028,fuzzy_auto,C-0028,Foxglove Cleaners,94.1,auto_correct
+Foxglove Market,normal,C-0029,exact,C-0029,Foxglove Market,100.0,auto_correct
+Foxglove Nursery,normal,C-0030,exact,C-0030,Foxglove Nursery,100.0,auto_correct
+Foxglove Pharamcy,typo,C-0031,fuzzy_auto,C-0031,Foxglove Pharmacy,94.1,auto_correct
+Foxglove Pharmacy,normal,C-0031,exact,C-0031,Foxglove Pharmacy,100.0,auto_correct
+Foxglove Pharmacy LLC,suffix,C-0031,exact,C-0031,Foxglove Pharmacy,100.0,auto_correct
+Foxglove-Cleaners,punct,C-0028,exact,C-0028,Foxglove Cleaners,100.0,auto_correct
+Foxglove/Pharmacy,punct,C-0031,exact,C-0031,Foxglove Pharmacy,100.0,auto_correct
+Foxjlove Cleaners,typo,C-0028,fuzzy_auto,C-0028,Foxglove Cleaners,94.1,auto_correct
+GRANITE BAKERY,case,C-0032,exact,C-0032,Granite Bakery,100.0,auto_correct
+GRANITE BOOKS,case,C-0033,exact,C-0033,Granite Books,100.0,auto_correct
+GRANITE CLINIC,case,C-0035,exact,C-0035,Granite Clinic,100.0,auto_correct
+GRANITE VETERINARY,case,C-0037,exact,C-0037,Granite Veterinary,100.0,auto_correct
+Granite  Cleaners,punct,C-0034,exact,C-0034,Granite Cleaners,100.0,auto_correct
+Granite  Clinic,punct,C-0035,exact,C-0035,Granite Clinic,100.0,auto_correct
+Granite Bakery,normal,C-0032,exact,C-0032,Granite Bakery,100.0,auto_correct
+Granite Bkery,typo,C-0032,fuzzy_auto,C-0032,Granite Bakery,96.3,auto_correct
+Granite Books,normal,C-0033,exact,C-0033,Granite Books,100.0,auto_correct
+Granite Cleaners,normal,C-0034,exact,C-0034,Granite Cleaners,100.0,auto_correct
+Granite Clinic,normal,C-0035,exact,C-0035,Granite Clinic,100.0,auto_correct
+Granite Clinic Inc,suffix,C-0035,exact,C-0035,Granite Clinic,100.0,auto_correct
+Granite Deli,normal,C-0036,exact,C-0036,Granite Deli,100.0,auto_correct
+Granite Veterinary,normal,C-0037,exact,C-0037,Granite Veterinary,100.0,auto_correct
+Granite/Books,punct,C-0033,exact,C-0033,Granite Books,100.0,auto_correct
+GraniteCleaners,typo,C-0034,fuzzy_auto,C-0034,Granite Cleaners,96.8,auto_correct
+Granvte Deli,typo,C-0036,fuzzy_auto,C-0036,Granite Deli,91.7,auto_correct
+HOLLOW HARDWARE,case,C-0038,exact,C-0038,Hollow Hardware,100.0,auto_correct
+Hallowick Works,unknown,UNKNOWN,fuzzy_review,C-0116,Yellowfin Florist,56.2,review_on_unknown
+Hollow Hardware,normal,C-0038,exact,C-0038,Hollow Hardware,100.0,auto_correct
+Hollow Hardware Ltd,suffix,C-0038,exact,C-0038,Hollow Hardware,100.0,auto_correct
+Hollow Hardwrae,typo,C-0038,fuzzy_auto,C-0038,Hollow Hardware,93.3,auto_correct
+Hollow Hatdware,typo,C-0038,fuzzy_auto,C-0038,Hollow Hardware,93.3,auto_correct
+Hollow Hrdware,typo,C-0038,fuzzy_auto,C-0038,Hollow Hardware,96.6,auto_correct
+Hollow ardware,typo,C-0038,fuzzy_auto,C-0038,Hollow Hardware,96.6,auto_correct
+IRON GARAGE,case,C-0042,exact,C-0042,Iron Garage,100.0,auto_correct
+IRON PHOTO STUDIO,case,C-0044,exact,C-0044,Iron Photo Studio,100.0,auto_correct
+Iron  Photo Studio,punct,C-0044,exact,C-0044,Iron Photo Studio,100.0,auto_correct
+Iron Bicycles,normal,C-0039,exact,C-0039,Iron Bicycles,100.0,auto_correct
+Iron Clinic,normal,C-0040,exact,C-0040,Iron Clinic,100.0,auto_correct
+Iron Clizic,typo,C-0040,fuzzy_auto,C-0040,Iron Clinic,90.9,auto_correct
+Iron Floris,typo,C-0041,fuzzy_auto,C-0041,Iron Florist,95.7,auto_correct
+Iron Florist,normal,C-0041,exact,C-0041,Iron Florist,100.0,auto_correct
+Iron Garage,normal,C-0042,exact,C-0042,Iron Garage,100.0,auto_correct
+Iron Garage Inc,suffix,C-0042,exact,C-0042,Iron Garage,100.0,auto_correct
+Iron Nnrsery,typo,C-0043,fuzzy_auto,C-0043,Iron Nursery,91.7,auto_correct
+Iron Nursery,normal,C-0043,exact,C-0043,Iron Nursery,100.0,auto_correct
+Iron Nursery Inc,suffix,C-0043,exact,C-0043,Iron Nursery,100.0,auto_correct
+Iron Nusery,typo,C-0043,fuzzy_auto,C-0043,Iron Nursery,95.7,auto_correct
+Iron Photo Stdio,typo,C-0044,fuzzy_auto,C-0044,Iron Photo Studio,97.0,auto_correct
+Iron Photo Studio,normal,C-0044,exact,C-0044,Iron Photo Studio,100.0,auto_correct
+Iron-Florist,punct,C-0041,exact,C-0041,Iron Florist,100.0,auto_correct
+Iron/Photo Studio,punct,C-0044,exact,C-0044,Iron Photo Studio,100.0,auto_correct
+JUNIPER NURSERY,case,C-0045,exact,C-0045,Juniper Nursery,100.0,auto_correct
+JUNIPER PHARMACY,case,C-0046,exact,C-0046,Juniper Pharmacy,100.0,auto_correct
+JUNIPER PHOTO STUDIO,case,C-0047,exact,C-0047,Juniper Photo Studio,100.0,auto_correct
+JUNIPER TATTOO,case,C-0048,exact,C-0048,Juniper Tattoo,100.0,auto_correct
+Juniepr Pharmacy,typo,C-0046,fuzzy_auto,C-0046,Juniper Pharmacy,93.8,auto_correct
+Juniper Nursery,normal,C-0045,exact,C-0045,Juniper Nursery,100.0,auto_correct
+Juniper Pharmacy,normal,C-0046,exact,C-0046,Juniper Pharmacy,100.0,auto_correct
+Juniper Photo Studio,normal,C-0047,exact,C-0047,Juniper Photo Studio,100.0,auto_correct
+Juniper Photo Studio Co.,suffix,C-0047,exact,C-0047,Juniper Photo Studio,100.0,auto_correct
+Juniper Photo Studio Ltd,suffix,C-0047,exact,C-0047,Juniper Photo Studio,100.0,auto_correct
+Juniper Tattoo,normal,C-0048,exact,C-0048,Juniper Tattoo,100.0,auto_correct
+Juniper Ttatoo,typo,C-0048,fuzzy_auto,C-0048,Juniper Tattoo,92.9,auto_correct
+KESTREL BREWING,case,C-0050,exact,C-0050,Kestrel Brewing,100.0,auto_correct
+KESTREL PRINT SHOP,case,C-0052,exact,C-0052,Kestrel Print Shop,100.0,auto_correct
+Kestrel  Bakery,punct,C-0049,exact,C-0049,Kestrel Bakery,100.0,auto_correct
+Kestrel  Brewing,punct,C-0050,exact,C-0050,Kestrel Brewing,100.0,auto_correct
+Kestrel Ba,ambiguous,AMBIGUOUS:C-0049,fuzzy_review,C-0049,Kestrel Bakery,83.3,review_correct
+Kestrel Bakery,normal,C-0049,exact,C-0049,Kestrel Bakery,100.0,auto_correct
+Kestrel Brewing,normal,C-0050,exact,C-0050,Kestrel Brewing,100.0,auto_correct
+Kestrel Bu,ambiguous,AMBIGUOUS:C-0051,fuzzy_review,C-0051,Kestrel Butchery,76.9,review_correct
+Kestrel Butchery,normal,C-0051,exact,C-0051,Kestrel Butchery,100.0,auto_correct
+Kestrel Print Shop,normal,C-0052,exact,C-0052,Kestrel Print Shop,100.0,auto_correct
+Kestrel-Print Shop,punct,C-0052,exact,C-0052,Kestrel Print Shop,100.0,auto_correct
+Kestrl Butchery,typo,C-0051,fuzzy_auto,C-0051,Kestrel Butchery,96.8,auto_correct
+Kestrll Print Shop,typo,C-0052,fuzzy_auto,C-0052,Kestrel Print Shop,94.4,auto_correct
+LARKSPUR BOUTIQUE,case,C-0053,exact,C-0053,Larkspur Boutique,100.0,auto_correct
+LARKSPUR CHEESE SHOP,case,C-0054,exact,C-0054,Larkspur Cheese Shop,100.0,auto_correct
+LARKSPUR DENTAL,case,C-0055,exact,C-0055,Larkspur Dental,100.0,auto_correct
+LARKSPUR MARKET,case,C-0057,exact,C-0057,Larkspur Market,100.0,auto_correct
+LARKSPUR OUTFITTERS,case,C-0058,exact,C-0058,Larkspur Outfitters,100.0,auto_correct
+LARKSPUR VETERINARY,case,C-0059,exact,C-0059,Larkspur Veterinary,100.0,auto_correct
+Larkspr Dental,typo,C-0055,fuzzy_auto,C-0055,Larkspur Dental,96.6,auto_correct
+Larkspun Veterinary,typo,C-0059,fuzzy_auto,C-0059,Larkspur Veterinary,94.7,auto_correct
+Larkspur Boutique,normal,C-0053,exact,C-0053,Larkspur Boutique,100.0,auto_correct
+Larkspur Cheese Shop,normal,C-0054,exact,C-0054,Larkspur Cheese Shop,100.0,auto_correct
+Larkspur Denbal,typo,C-0055,fuzzy_auto,C-0055,Larkspur Dental,93.3,auto_correct
+Larkspur Dental,normal,C-0055,exact,C-0055,Larkspur Dental,100.0,auto_correct
+Larkspur Dental LLC,suffix,C-0055,exact,C-0055,Larkspur Dental,100.0,auto_correct
+Larkspur Hardware,normal,C-0056,exact,C-0056,Larkspur Hardware,100.0,auto_correct
+Larkspur Market,normal,C-0057,exact,C-0057,Larkspur Market,100.0,auto_correct
+Larkspur Market Co.,suffix,C-0057,exact,C-0057,Larkspur Market,100.0,auto_correct
+Larkspur Outfiters,typo,C-0058,fuzzy_auto,C-0058,Larkspur Outfitters,97.3,auto_correct
+Larkspur Outfitters,normal,C-0058,exact,C-0058,Larkspur Outfitters,100.0,auto_correct
+Larkspur Outfitters Co.,suffix,C-0058,exact,C-0058,Larkspur Outfitters,100.0,auto_correct
+Larkspur Veterinary,normal,C-0059,exact,C-0059,Larkspur Veterinary,100.0,auto_correct
+Larkspur Veterinary Inc,suffix,C-0059,exact,C-0059,Larkspur Veterinary,100.0,auto_correct
+Larkspur Vetrinary,typo,C-0059,fuzzy_auto,C-0059,Larkspur Veterinary,97.3,auto_correct
+Larkspur eterinary,typo,C-0059,fuzzy_auto,C-0059,Larkspur Veterinary,97.3,auto_correct
+LarkspurCheese Shop,typo,C-0054,fuzzy_auto,C-0054,Larkspur Cheese Shop,97.4,auto_correct
+Larksur Market,typo,C-0057,fuzzy_auto,C-0057,Larkspur Market,96.6,auto_correct
+MEADOW DENTAL,case,C-0060,exact,C-0060,Meadow Dental,100.0,auto_correct
+MEADOW HARDWARE,case,C-0062,exact,C-0062,Meadow Hardware,100.0,auto_correct
+MEADOW OUTFITTERS,case,C-0064,exact,C-0064,Meadow Outfitters,100.0,auto_correct
+MEADOW PHARMACY,case,C-0065,exact,C-0065,Meadow Pharmacy,100.0,auto_correct
+Meado Pharmacy,typo,C-0065,fuzzy_auto,C-0065,Meadow Pharmacy,96.6,auto_correct
+Meado wFlorist,typo,C-0061,fuzzy_auto,C-0061,Meadow Florist,92.9,auto_correct
+Meado wOutfitters,typo,C-0064,fuzzy_auto,C-0064,Meadow Outfitters,94.1,auto_correct
+Meadow  Hardware,punct,C-0062,exact,C-0062,Meadow Hardware,100.0,auto_correct
+Meadow Dental,normal,C-0060,exact,C-0060,Meadow Dental,100.0,auto_correct
+Meadow Florist,normal,C-0061,exact,C-0061,Meadow Florist,100.0,auto_correct
+Meadow Hardware,normal,C-0062,exact,C-0062,Meadow Hardware,100.0,auto_correct
+Meadow Market,normal,C-0063,exact,C-0063,Meadow Market,100.0,auto_correct
+Meadow Market Inc,suffix,C-0063,exact,C-0063,Meadow Market,100.0,auto_correct
+Meadow Market Ltd,suffix,C-0063,exact,C-0063,Meadow Market,100.0,auto_correct
+Meadow Outfitters,normal,C-0064,exact,C-0064,Meadow Outfitters,100.0,auto_correct
+Meadow Outfitters Ltd,suffix,C-0064,exact,C-0064,Meadow Outfitters,100.0,auto_correct
+Meadow Ph,ambiguous,AMBIGUOUS:C-0065,fuzzy_review,C-0065,Meadow Pharmacy,75.0,review_correct
+Meadow Pharamcy,typo,C-0065,fuzzy_auto,C-0065,Meadow Pharmacy,93.3,auto_correct
+Meadow Pharmacy,normal,C-0065,exact,C-0065,Meadow Pharmacy,100.0,auto_correct
+Meadow Pharmacy Ltd,suffix,C-0065,exact,C-0065,Meadow Pharmacy,100.0,auto_correct
+Meadow Pho,ambiguous,AMBIGUOUS:C-0066,fuzzy_review,C-0065,Meadow Pharmacy,72.0,review_correct
+Meadow Photo Studio,normal,C-0066,exact,C-0066,Meadow Photo Studio,100.0,auto_correct
+Meadow aHrdware,typo,C-0062,fuzzy_auto,C-0062,Meadow Hardware,93.3,auto_correct
+Meadow-Hardware,punct,C-0062,exact,C-0062,Meadow Hardware,100.0,auto_correct
+Meaodw Florist,typo,C-0061,fuzzy_auto,C-0061,Meadow Florist,92.9,auto_correct
+NORTHGATE BREWING,case,C-0067,exact,C-0067,Northgate Brewing,100.0,auto_correct
+NORTHGATE MARKET,case,C-0069,exact,C-0069,Northgate Market,100.0,auto_correct
+NORTHGATE VETERINARY,case,C-0071,exact,C-0071,Northgate Veterinary,100.0,auto_correct
+Nortghate Cafe,typo,C-0068,fuzzy_auto,C-0068,Northgate Cafe,92.9,auto_correct
+Northgate  Veterinary,punct,C-0071,exact,C-0071,Northgate Veterinary,100.0,auto_correct
+Northgate Brewing,normal,C-0067,exact,C-0067,Northgate Brewing,100.0,auto_correct
+Northgate Cafe,normal,C-0068,exact,C-0068,Northgate Cafe,100.0,auto_correct
+Northgate Cafe LLC,suffix,C-0068,exact,C-0068,Northgate Cafe,100.0,auto_correct
+Northgate Market,normal,C-0069,exact,C-0069,Northgate Market,100.0,auto_correct
+Northgate Tattoo,normal,C-0070,exact,C-0070,Northgate Tattoo,100.0,auto_correct
+Northgate Tattoo Inc,suffix,C-0070,exact,C-0070,Northgate Tattoo,100.0,auto_correct
+Northgate Tattoo LLC,suffix,C-0070,exact,C-0070,Northgate Tattoo,100.0,auto_correct
+Northgate Veterinary,normal,C-0071,exact,C-0071,Northgate Veterinary,100.0,auto_correct
+Northgate Veterinary LLC,suffix,C-0071,exact,C-0071,Northgate Veterinary,100.0,auto_correct
+Northgate Vteerinary,typo,C-0071,fuzzy_auto,C-0071,Northgate Veterinary,95.0,auto_correct
+Northgate lattoo,typo,C-0070,fuzzy_auto,C-0070,Northgate Tattoo,93.8,auto_correct
+Northgate nattoo,typo,C-0070,fuzzy_auto,C-0070,Northgate Tattoo,93.8,auto_correct
+NorthgatexCafe,typo,C-0068,fuzzy_auto,C-0068,Northgate Cafe,92.9,auto_correct
+Northgatw Cafe,typo,C-0068,fuzzy_auto,C-0068,Northgate Cafe,92.9,auto_correct
+OSPREY BOOKS,case,C-0072,exact,C-0072,Osprey Books,100.0,auto_correct
+OSPREY HARDWARE,case,C-0073,exact,C-0073,Osprey Hardware,100.0,auto_correct
+Ospret Books,typo,C-0072,fuzzy_auto,C-0072,Osprey Books,91.7,auto_correct
+Osprey Books,normal,C-0072,exact,C-0072,Osprey Books,100.0,auto_correct
+Osprey Haodware,typo,C-0073,fuzzy_auto,C-0073,Osprey Hardware,93.3,auto_correct
+Osprey Hardware,normal,C-0073,exact,C-0073,Osprey Hardware,100.0,auto_correct
+Osprey/Hardware,punct,C-0073,exact,C-0073,Osprey Hardware,100.0,auto_correct
+PLOVER BICYCLES,case,C-0074,exact,C-0074,Plover Bicycles,100.0,auto_correct
+PLOVER BOUTIQUE,case,C-0075,exact,C-0075,Plover Boutique,100.0,auto_correct
+PLOVER OUTFITTERS,case,C-0077,exact,C-0077,Plover Outfitters,100.0,auto_correct
+PLOVER PHARMACY,case,C-0078,exact,C-0078,Plover Pharmacy,100.0,auto_correct
+Plover Bicycles,normal,C-0074,exact,C-0074,Plover Bicycles,100.0,auto_correct
+Plover Bicyclxs,typo,C-0074,fuzzy_auto,C-0074,Plover Bicycles,93.3,auto_correct
+Plover Bicylces,typo,C-0074,fuzzy_auto,C-0074,Plover Bicycles,93.3,auto_correct
+Plover Biycles,typo,C-0074,fuzzy_auto,C-0074,Plover Bicycles,96.6,auto_correct
+Plover Boutique,normal,C-0075,exact,C-0075,Plover Boutique,100.0,auto_correct
+Plover Boutique LLC,suffix,C-0075,exact,C-0075,Plover Boutique,100.0,auto_correct
+Plover Nursery,normal,C-0076,exact,C-0076,Plover Nursery,100.0,auto_correct
+Plover Nursey,typo,C-0076,fuzzy_auto,C-0076,Plover Nursery,96.3,auto_correct
+Plover Outfitrers,typo,C-0077,fuzzy_auto,C-0077,Plover Outfitters,94.1,auto_correct
+Plover Outfitters,normal,C-0077,exact,C-0077,Plover Outfitters,100.0,auto_correct
+Plover Pharmacy,normal,C-0078,exact,C-0078,Plover Pharmacy,100.0,auto_correct
+Plover Pharmacy Ltd,suffix,C-0078,exact,C-0078,Plover Pharmacy,100.0,auto_correct
+Plover Photo Studio,normal,C-0079,exact,C-0079,Plover Photo Studio,100.0,auto_correct
+Plover Photo Studio Co.,suffix,C-0079,exact,C-0079,Plover Photo Studio,100.0,auto_correct
+Plover-Boutique,punct,C-0075,exact,C-0075,Plover Boutique,100.0,auto_correct
+Plover/Nursery,punct,C-0076,exact,C-0076,Plover Nursery,100.0,auto_correct
+QUARRY BREWING,case,C-0080,exact,C-0080,Quarry Brewing,100.0,auto_correct
+QUARRY BUTCHERY,case,C-0081,exact,C-0081,Quarry Butchery,100.0,auto_correct
+QUARRY FLORIST,case,C-0083,exact,C-0083,Quarry Florist,100.0,auto_correct
+QUARRY OUTFITTERS,case,C-0085,exact,C-0085,Quarry Outfitters,100.0,auto_correct
+Quarcy Clinic,typo,C-0082,fuzzy_auto,C-0082,Quarry Clinic,92.3,auto_correct
+Quarr yFlorist,typo,C-0083,fuzzy_auto,C-0083,Quarry Florist,92.9,auto_correct
+Quarry  Clinic,punct,C-0082,exact,C-0082,Quarry Clinic,100.0,auto_correct
+Quarry  Florist,punct,C-0083,exact,C-0083,Quarry Florist,100.0,auto_correct
+Quarry  Outfitters,punct,C-0085,exact,C-0085,Quarry Outfitters,100.0,auto_correct
+Quarry Brewing,normal,C-0080,exact,C-0080,Quarry Brewing,100.0,auto_correct
+Quarry Butchery,normal,C-0081,exact,C-0081,Quarry Butchery,100.0,auto_correct
+Quarry Clinic,normal,C-0082,exact,C-0082,Quarry Clinic,100.0,auto_correct
+Quarry Florist,normal,C-0083,exact,C-0083,Quarry Florist,100.0,auto_correct
+Quarry Market,normal,C-0084,exact,C-0084,Quarry Market,100.0,auto_correct
+Quarry Ontfitters,typo,C-0085,fuzzy_auto,C-0085,Quarry Outfitters,94.1,auto_correct
+Quarry Otufitters,typo,C-0085,fuzzy_auto,C-0085,Quarry Outfitters,94.1,auto_correct
+Quarry Outfittcrs,typo,C-0085,fuzzy_auto,C-0085,Quarry Outfitters,94.1,auto_correct
+Quarry Outfitters,normal,C-0085,exact,C-0085,Quarry Outfitters,100.0,auto_correct
+Quarry Outfitters Inc,suffix,C-0085,exact,C-0085,Quarry Outfitters,100.0,auto_correct
+Quarry-Butchery,punct,C-0081,exact,C-0081,Quarry Butchery,100.0,auto_correct
+QuarryF lorist,typo,C-0083,fuzzy_auto,C-0083,Quarry Florist,92.9,auto_correct
+QuarryMarket,typo,C-0084,fuzzy_auto,C-0084,Quarry Market,96.0,auto_correct
+Quarwy Market,typo,C-0084,fuzzy_auto,C-0084,Quarry Market,92.3,auto_correct
+Quary Outfitters,typo,C-0085,fuzzy_auto,C-0085,Quarry Outfitters,97.0,auto_correct
+RIVERBEND BICYCLES,case,C-0086,exact,C-0086,Riverbend Bicycles,100.0,auto_correct
+RIVERBEND BOOKS,case,C-0087,exact,C-0087,Riverbend Books,100.0,auto_correct
+RIVERBEND BOUTIQUE,case,C-0088,exact,C-0088,Riverbend Boutique,100.0,auto_correct
+RIVERBEND PRINT SHOP,case,C-0090,exact,C-0090,Riverbend Print Shop,100.0,auto_correct
+Riverben dPrint Shop,typo,C-0090,fuzzy_auto,C-0090,Riverbend Print Shop,95.0,auto_correct
+Riverbend  Bicycles,punct,C-0086,exact,C-0086,Riverbend Bicycles,100.0,auto_correct
+Riverbend  Dental,punct,C-0089,exact,C-0089,Riverbend Dental,100.0,auto_correct
+Riverbend Bicycles,normal,C-0086,exact,C-0086,Riverbend Bicycles,100.0,auto_correct
+Riverbend Bo,ambiguous,AMBIGUOUS:C-0087,fuzzy_review,C-0087,Riverbend Books,88.9,review_correct
+Riverbend Books,normal,C-0087,exact,C-0087,Riverbend Books,100.0,auto_correct
+Riverbend Bou,ambiguous,AMBIGUOUS:C-0088,fuzzy_review,C-0087,Riverbend Books,85.7,review_correct
+Riverbend Boutique,normal,C-0088,exact,C-0088,Riverbend Boutique,100.0,auto_correct
+Riverbend Dental,normal,C-0089,exact,C-0089,Riverbend Dental,100.0,auto_correct
+Riverbend Dental LLC,suffix,C-0089,exact,C-0089,Riverbend Dental,100.0,auto_correct
+Riverbend Dntal,typo,C-0089,fuzzy_auto,C-0089,Riverbend Dental,96.8,auto_correct
+Riverbend Prine Shop,typo,C-0090,fuzzy_auto,C-0090,Riverbend Print Shop,95.0,auto_correct
+Riverbend Print Shop,normal,C-0090,exact,C-0090,Riverbend Print Shop,100.0,auto_correct
+Riverbend Print Shop Co.,suffix,C-0090,exact,C-0090,Riverbend Print Shop,100.0,auto_correct
+Riverbend-Dental,punct,C-0089,exact,C-0089,Riverbend Dental,100.0,auto_correct
+Riverbend-Print Shop,punct,C-0090,exact,C-0090,Riverbend Print Shop,100.0,auto_correct
+SABLE CHEESE SHOP,case,C-0091,exact,C-0091,Sable Cheese Shop,100.0,auto_correct
+SABLE OUTFITTERS,case,C-0092,exact,C-0092,Sable Outfitters,100.0,auto_correct
+SABLE PRINT SHOP,case,C-0094,exact,C-0094,Sable Print Shop,100.0,auto_correct
+Sable Cheese Shop,normal,C-0091,exact,C-0091,Sable Cheese Shop,100.0,auto_correct
+Sable Cheese Shop Co.,suffix,C-0091,exact,C-0091,Sable Cheese Shop,100.0,auto_correct
+Sable Outfitters,normal,C-0092,exact,C-0092,Sable Outfitters,100.0,auto_correct
+Sable Photo Studio,normal,C-0093,exact,C-0093,Sable Photo Studio,100.0,auto_correct
+Sable Print Shop,normal,C-0094,exact,C-0094,Sable Print Shop,100.0,auto_correct
+Sable/Photo Studio,punct,C-0093,exact,C-0093,Sable Photo Studio,100.0,auto_correct
+Solmara Depot,unknown,UNKNOWN,unknown,,,50.0,unknown_correct
+Solmara Works,unknown,UNKNOWN,unknown,,,54.5,unknown_correct
+TIMBERLINE BREWING,case,C-0095,exact,C-0095,Timberline Brewing,100.0,auto_correct
+TIMBERLINE DENTAL,case,C-0098,exact,C-0098,Timberline Dental,100.0,auto_correct
+TIMBERLINE GARAGE,case,C-0099,exact,C-0099,Timberline Garage,100.0,auto_correct
+TIMBERLINE OUTFITTERS,case,C-0100,exact,C-0100,Timberline Outfitters,100.0,auto_correct
+TIMBERLINE TATTOO,case,C-0101,exact,C-0101,Timberline Tattoo,100.0,auto_correct
+Tarnside Depot,unknown,UNKNOWN,unknown,,,53.8,unknown_correct
+Timbeline Cleaners,typo,C-0096,fuzzy_auto,C-0096,Timberline Cleaners,97.3,auto_correct
+Timberilne Outfitters,typo,C-0100,fuzzy_auto,C-0100,Timberline Outfitters,95.2,auto_correct
+Timberline Brewing,normal,C-0095,exact,C-0095,Timberline Brewing,100.0,auto_correct
+Timberline Brewng,typo,C-0095,fuzzy_auto,C-0095,Timberline Brewing,97.1,auto_correct
+Timberline Cleaners,normal,C-0096,exact,C-0096,Timberline Cleaners,100.0,auto_correct
+Timberline De,ambiguous,AMBIGUOUS:C-0098,fuzzy_review,C-0097,Timberline Denim Co,89.7,review_correct
+Timberline Den,ambiguous,AMBIGUOUS:C-0098,fuzzy_review,C-0097,Timberline Denim Co,93.3,review_correct
+Timberline Denim Co,normal,C-0097,exact,C-0097,Timberline Denim Co,100.0,auto_correct
+Timberline Dental,normal,C-0098,exact,C-0098,Timberline Dental,100.0,auto_correct
+Timberline Dental Co.,suffix,C-0098,exact,C-0098,Timberline Dental,100.0,auto_correct
+Timberline Garage,normal,C-0099,exact,C-0099,Timberline Garage,100.0,auto_correct
+Timberline Grage,typo,C-0099,fuzzy_auto,C-0099,Timberline Garage,97.0,auto_correct
+Timberline Outfitters,normal,C-0100,exact,C-0100,Timberline Outfitters,100.0,auto_correct
+Timberline Outfitters Co.,suffix,C-0100,exact,C-0100,Timberline Outfitters,100.0,auto_correct
+Timberline Tattoo,normal,C-0101,exact,C-0101,Timberline Tattoo,100.0,auto_correct
+Timberline-Denim Co,punct,C-0097,exact,C-0097,Timberline Denim Co,100.0,auto_correct
+Timberline-Dental,punct,C-0098,exact,C-0098,Timberline Dental,100.0,auto_correct
+TimberlineT attoo,typo,C-0101,fuzzy_auto,C-0101,Timberline Tattoo,94.1,auto_correct
+Timbreline Garage,typo,C-0099,fuzzy_auto,C-0099,Timberline Garage,94.1,auto_correct
+UPLAND MARKET,case,C-0102,exact,C-0102,Upland Market,100.0,auto_correct
+UPLAND OUTFITTERS,case,C-0103,exact,C-0103,Upland Outfitters,100.0,auto_correct
+Umberton Depot,unknown,UNKNOWN,fuzzy_review,C-0098,Timberline Dental,58.1,review_on_unknown
+Umberton Trading Co,unknown,UNKNOWN,fuzzy_review,C-0095,Timberline Brewing,58.8,review_on_unknown
+Umberton Works,unknown,UNKNOWN,unknown,,,53.8,unknown_correct
+Upland  Market,punct,C-0102,exact,C-0102,Upland Market,100.0,auto_correct
+Upland Market,normal,C-0102,exact,C-0102,Upland Market,100.0,auto_correct
+Upland Outfitters,normal,C-0103,exact,C-0103,Upland Outfitters,100.0,auto_correct
+Upland Outfitters Ltd,suffix,C-0103,exact,C-0103,Upland Outfitters,100.0,auto_correct
+VERDANT BUTCHERY,case,C-0104,exact,C-0104,Verdant Butchery,100.0,auto_correct
+VERDANT CLEANERS,case,C-0105,exact,C-0105,Verdant Cleaners,100.0,auto_correct
+VERDANT MARKET,case,C-0106,exact,C-0106,Verdant Market,100.0,auto_correct
+Verdant Butchery,normal,C-0104,exact,C-0104,Verdant Butchery,100.0,auto_correct
+Verdant Cleaenrs,typo,C-0105,fuzzy_auto,C-0105,Verdant Cleaners,93.8,auto_correct
+Verdant Cleaners,normal,C-0105,exact,C-0105,Verdant Cleaners,100.0,auto_correct
+Verdant Market,normal,C-0106,exact,C-0106,Verdant Market,100.0,auto_correct
+Verdant/Butchery,punct,C-0104,exact,C-0104,Verdant Butchery,100.0,auto_correct
+Vexmoor Odd Lots,unknown,UNKNOWN,unknown,,,48.0,unknown_correct
+WILLOW BAKERY,case,C-0107,exact,C-0107,Willow Bakery,100.0,auto_correct
+WILLOW BREWING,case,C-0108,exact,C-0108,Willow Brewing,100.0,auto_correct
+WILLOW MARKET,case,C-0110,exact,C-0110,Willow Market,100.0,auto_correct
+WILLOW PHARMACY,case,C-0111,exact,C-0111,Willow Pharmacy,100.0,auto_correct
+WILLOW PRINT SHOP,case,C-0112,exact,C-0112,Willow Print Shop,100.0,auto_correct
+Walk-in,walkin,WALKIN,walkin,WALKIN,Walk-in,100.0,walkin_correct
+Willaw Bakery,typo,C-0107,fuzzy_auto,C-0107,Willow Bakery,92.3,auto_correct
+Willo Market,typo,C-0110,fuzzy_auto,C-0110,Willow Market,96.0,auto_correct
+Willow Bakery,normal,C-0107,exact,C-0107,Willow Bakery,100.0,auto_correct
+Willow Bakery LLC,suffix,C-0107,exact,C-0107,Willow Bakery,100.0,auto_correct
+Willow Brewing,normal,C-0108,exact,C-0108,Willow Brewing,100.0,auto_correct
+Willow Brwing,typo,C-0108,fuzzy_auto,C-0108,Willow Brewing,96.3,auto_correct
+Willow Dental,normal,C-0109,exact,C-0109,Willow Dental,100.0,auto_correct
+Willow Market,normal,C-0110,exact,C-0110,Willow Market,100.0,auto_correct
+Willow Pharmacy,normal,C-0111,exact,C-0111,Willow Pharmacy,100.0,auto_correct
+Willow Pharmacy Ltd,suffix,C-0111,exact,C-0111,Willow Pharmacy,100.0,auto_correct
+Willow Print Shop,normal,C-0112,exact,C-0112,Willow Print Shop,100.0,auto_correct
+Willow harmacy,typo,C-0111,fuzzy_auto,C-0111,Willow Pharmacy,96.6,auto_correct
+Willow-Pharmacy,punct,C-0111,exact,C-0111,Willow Pharmacy,100.0,auto_correct
+Willow/Bakery,punct,C-0107,exact,C-0107,Willow Bakery,100.0,auto_correct
+WillowMarket,typo,C-0110,fuzzy_auto,C-0110,Willow Market,96.0,auto_correct
+Willoz Market,typo,C-0110,fuzzy_auto,C-0110,Willow Market,92.3,auto_correct
+Wiltow Bakery,typo,C-0107,fuzzy_auto,C-0107,Willow Bakery,92.3,auto_correct
+YELLOWFIN BAKERY,case,C-0113,exact,C-0113,Yellowfin Bakery,100.0,auto_correct
+YELLOWFIN CAFE,case,C-0114,exact,C-0114,Yellowfin Cafe,100.0,auto_correct
+YELLOWFIN CHEESE SHOP,case,C-0115,exact,C-0115,Yellowfin Cheese Shop,100.0,auto_correct
+YELLOWFIN HARDWARE,case,C-0117,exact,C-0117,Yellowfin Hardware,100.0,auto_correct
+YELLOWFIN VETERINARY,case,C-0118,exact,C-0118,Yellowfin Veterinary,100.0,auto_correct
+Yellowfi Cafe,typo,C-0114,fuzzy_auto,C-0114,Yellowfin Cafe,96.3,auto_correct
+Yellowfin Bakery,normal,C-0113,exact,C-0113,Yellowfin Bakery,100.0,auto_correct
+Yellowfin Cafe,normal,C-0114,exact,C-0114,Yellowfin Cafe,100.0,auto_correct
+Yellowfin Cheese Shop,normal,C-0115,exact,C-0115,Yellowfin Cheese Shop,100.0,auto_correct
+Yellowfin Cheese Shop Inc,suffix,C-0115,exact,C-0115,Yellowfin Cheese Shop,100.0,auto_correct
+Yellowfin Chesee Shop,typo,C-0115,fuzzy_auto,C-0115,Yellowfin Cheese Shop,95.2,auto_correct
+Yellowfin Florist,normal,C-0116,exact,C-0116,Yellowfin Florist,100.0,auto_correct
+Yellowfin Florist LLC,suffix,C-0116,exact,C-0116,Yellowfin Florist,100.0,auto_correct
+Yellowfin Hardware,normal,C-0117,exact,C-0117,Yellowfin Hardware,100.0,auto_correct
+Yellowfin Veterinary,normal,C-0118,exact,C-0118,Yellowfin Veterinary,100.0,auto_correct
+Yellowfin/Florist,punct,C-0116,exact,C-0116,Yellowfin Florist,100.0,auto_correct
+Yellowfin/Hardware,punct,C-0117,exact,C-0117,Yellowfin Hardware,100.0,auto_correct
+Yellowfin/Veterinary,punct,C-0118,exact,C-0118,Yellowfin Veterinary,100.0,auto_correct
+Yelowfin Bakery,typo,C-0113,fuzzy_auto,C-0113,Yellowfin Bakery,96.8,auto_correct
+ZEPHYR PHOTO STUDIO,case,C-0120,exact,C-0120,Zephyr Photo Studio,100.0,auto_correct
+Zelkara Depot,unknown,UNKNOWN,unknown,,,52.2,unknown_correct
+Zelkara Odd Lots,unknown,UNKNOWN,unknown,,,51.9,unknown_correct
+Zelkara Trading Co,unknown,UNKNOWN,unknown,,,53.8,unknown_correct
+Zelkara Works,unknown,UNKNOWN,fuzzy_review,C-0010,Cedar Books,58.3,review_on_unknown
+Zephyr Cleaners,normal,C-0119,exact,C-0119,Zephyr Cleaners,100.0,auto_correct
+Zephyr Cleanrs,typo,C-0119,fuzzy_auto,C-0119,Zephyr Cleaners,96.6,auto_correct
+Zephyr Photo Studio,normal,C-0120,exact,C-0120,Zephyr Photo Studio,100.0,auto_correct
+Zephyr Photo Studio Inc,suffix,C-0120,exact,C-0120,Zephyr Photo Studio,100.0,auto_correct
+Zephyr Phtoo Studio,typo,C-0120,fuzzy_auto,C-0120,Zephyr Photo Studio,94.7,auto_correct
+Zephyr/Cleaners,punct,C-0119,exact,C-0119,Zephyr Cleaners,100.0,auto_correct
+beacon hardware,case,C-0002,exact,C-0002,Beacon Hardware,100.0,auto_correct
+beacon market,case,C-0003,exact,C-0003,Beacon Market,100.0,auto_correct
+birchwood bakery,case,C-0004,exact,C-0004,Birchwood Bakery,100.0,auto_correct
+birchwood butchery,case,C-0006,exact,C-0006,Birchwood Butchery,100.0,auto_correct
+birchwood outfitters,case,C-0008,exact,C-0008,Birchwood Outfitters,100.0,auto_correct
+cedar cheese shop,case,C-0012,exact,C-0012,Cedar Cheese Shop,100.0,auto_correct
+cedar deli,case,C-0014,exact,C-0014,Cedar Deli,100.0,auto_correct
+cedar hardware,case,C-0015,exact,C-0015,Cedar Hardware,100.0,auto_correct
+copper bakery,case,C-0016,exact,C-0016,Copper Bakery,100.0,auto_correct
+drift nursery,case,C-0019,exact,C-0019,Drift Nursery,100.0,auto_correct
+dune cafe,case,C-0021,exact,C-0021,Dune Cafe,100.0,auto_correct
+dune garage,case,C-0022,exact,C-0022,Dune Garage,100.0,auto_correct
+elm books,case,C-0023,exact,C-0023,Elm Books,100.0,auto_correct
+elm brewing,case,C-0024,exact,C-0024,Elm Brewing,100.0,auto_correct
+elm nursery,case,C-0025,exact,C-0025,Elm Nursery,100.0,auto_correct
+elm print shop,case,C-0026,exact,C-0026,Elm Print Shop,100.0,auto_correct
+foxglove brewing,case,C-0027,exact,C-0027,Foxglove Brewing,100.0,auto_correct
+foxglove cleaners,case,C-0028,exact,C-0028,Foxglove Cleaners,100.0,auto_correct
+foxglove market,case,C-0029,exact,C-0029,Foxglove Market,100.0,auto_correct
+foxglove pharmacy,case,C-0031,exact,C-0031,Foxglove Pharmacy,100.0,auto_correct
+granite bakery,case,C-0032,exact,C-0032,Granite Bakery,100.0,auto_correct
+granite books,case,C-0033,exact,C-0033,Granite Books,100.0,auto_correct
+granite cleaners,case,C-0034,exact,C-0034,Granite Cleaners,100.0,auto_correct
+granite clinic,case,C-0035,exact,C-0035,Granite Clinic,100.0,auto_correct
+granite deli,case,C-0036,exact,C-0036,Granite Deli,100.0,auto_correct
+granite veterinary,case,C-0037,exact,C-0037,Granite Veterinary,100.0,auto_correct
+iron bicycles,case,C-0039,exact,C-0039,Iron Bicycles,100.0,auto_correct
+iron florist,case,C-0041,exact,C-0041,Iron Florist,100.0,auto_correct
+iron nursery,case,C-0043,exact,C-0043,Iron Nursery,100.0,auto_correct
+iron photo studio,case,C-0044,exact,C-0044,Iron Photo Studio,100.0,auto_correct
+juniper nursery,case,C-0045,exact,C-0045,Juniper Nursery,100.0,auto_correct
+juniper tattoo,case,C-0048,exact,C-0048,Juniper Tattoo,100.0,auto_correct
+kestrel bakery,case,C-0049,exact,C-0049,Kestrel Bakery,100.0,auto_correct
+kestrel brewing,case,C-0050,exact,C-0050,Kestrel Brewing,100.0,auto_correct
+kestrel butchery,case,C-0051,exact,C-0051,Kestrel Butchery,100.0,auto_correct
+kestrel print shop,case,C-0052,exact,C-0052,Kestrel Print Shop,100.0,auto_correct
+larkspur boutique,case,C-0053,exact,C-0053,Larkspur Boutique,100.0,auto_correct
+larkspur cheese shop,case,C-0054,exact,C-0054,Larkspur Cheese Shop,100.0,auto_correct
+larkspur dental,case,C-0055,exact,C-0055,Larkspur Dental,100.0,auto_correct
+larkspur hardware,case,C-0056,exact,C-0056,Larkspur Hardware,100.0,auto_correct
+larkspur veterinary,case,C-0059,exact,C-0059,Larkspur Veterinary,100.0,auto_correct
+meadow dental,case,C-0060,exact,C-0060,Meadow Dental,100.0,auto_correct
+meadow florist,case,C-0061,exact,C-0061,Meadow Florist,100.0,auto_correct
+meadow market,case,C-0063,exact,C-0063,Meadow Market,100.0,auto_correct
+meadow pharmacy,case,C-0065,exact,C-0065,Meadow Pharmacy,100.0,auto_correct
+meadow photo studio,case,C-0066,exact,C-0066,Meadow Photo Studio,100.0,auto_correct
+northgate cafe,case,C-0068,exact,C-0068,Northgate Cafe,100.0,auto_correct
+northgate tattoo,case,C-0070,exact,C-0070,Northgate Tattoo,100.0,auto_correct
+northgate veterinary,case,C-0071,exact,C-0071,Northgate Veterinary,100.0,auto_correct
+osprey books,case,C-0072,exact,C-0072,Osprey Books,100.0,auto_correct
+plover boutique,case,C-0075,exact,C-0075,Plover Boutique,100.0,auto_correct
+plover nursery,case,C-0076,exact,C-0076,Plover Nursery,100.0,auto_correct
+plover outfitters,case,C-0077,exact,C-0077,Plover Outfitters,100.0,auto_correct
+plover pharmacy,case,C-0078,exact,C-0078,Plover Pharmacy,100.0,auto_correct
+plover photo studio,case,C-0079,exact,C-0079,Plover Photo Studio,100.0,auto_correct
+quarry butchery,case,C-0081,exact,C-0081,Quarry Butchery,100.0,auto_correct
+quarry clinic,case,C-0082,exact,C-0082,Quarry Clinic,100.0,auto_correct
+quarry market,case,C-0084,exact,C-0084,Quarry Market,100.0,auto_correct
+quarry outfitters,case,C-0085,exact,C-0085,Quarry Outfitters,100.0,auto_correct
+riverbend bicycles,case,C-0086,exact,C-0086,Riverbend Bicycles,100.0,auto_correct
+riverbend books,case,C-0087,exact,C-0087,Riverbend Books,100.0,auto_correct
+riverbend boutique,case,C-0088,exact,C-0088,Riverbend Boutique,100.0,auto_correct
+riverbend dental,case,C-0089,exact,C-0089,Riverbend Dental,100.0,auto_correct
+riverbend print shop,case,C-0090,exact,C-0090,Riverbend Print Shop,100.0,auto_correct
+sable outfitters,case,C-0092,exact,C-0092,Sable Outfitters,100.0,auto_correct
+sable photo studio,case,C-0093,exact,C-0093,Sable Photo Studio,100.0,auto_correct
+sable print shop,case,C-0094,exact,C-0094,Sable Print Shop,100.0,auto_correct
+timberline brewing,case,C-0095,exact,C-0095,Timberline Brewing,100.0,auto_correct
+timberline cleaners,case,C-0096,exact,C-0096,Timberline Cleaners,100.0,auto_correct
+timberline denim co,case,C-0097,exact,C-0097,Timberline Denim Co,100.0,auto_correct
+timberline dental,case,C-0098,exact,C-0098,Timberline Dental,100.0,auto_correct
+timberline garage,case,C-0099,exact,C-0099,Timberline Garage,100.0,auto_correct
+timberline tattoo,case,C-0101,exact,C-0101,Timberline Tattoo,100.0,auto_correct
+upland market,case,C-0102,exact,C-0102,Upland Market,100.0,auto_correct
+upland outfitters,case,C-0103,exact,C-0103,Upland Outfitters,100.0,auto_correct
+verdant butchery,case,C-0104,exact,C-0104,Verdant Butchery,100.0,auto_correct
+verdant market,case,C-0106,exact,C-0106,Verdant Market,100.0,auto_correct
+willow bakery,case,C-0107,exact,C-0107,Willow Bakery,100.0,auto_correct
+willow market,case,C-0110,exact,C-0110,Willow Market,100.0,auto_correct
+willow pharmacy,case,C-0111,exact,C-0111,Willow Pharmacy,100.0,auto_correct
+willow print shop,case,C-0112,exact,C-0112,Willow Print Shop,100.0,auto_correct
+yellowfin bakery,case,C-0113,exact,C-0113,Yellowfin Bakery,100.0,auto_correct
+yellowfin florist,case,C-0116,exact,C-0116,Yellowfin Florist,100.0,auto_correct
+yellowfin hardware,case,C-0117,exact,C-0117,Yellowfin Hardware,100.0,auto_correct
+yellowfin veterinary,case,C-0118,exact,C-0118,Yellowfin Veterinary,100.0,auto_correct
+zephyr cleaners,case,C-0119,exact,C-0119,Zephyr Cleaners,100.0,auto_correct
+zephyr photo studio,case,C-0120,exact,C-0120,Zephyr Photo Studio,100.0,auto_correct

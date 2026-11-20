@@ -1,0 +1,14 @@
+# generated inputs and outputs
+input/
+output/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# os
+.DS_Store
+Thumbs.db

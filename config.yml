@@ -1,0 +1,146 @@
+# Configuration for the cleanup pipeline.
+#
+# Each entry under `vendors` describes one supplier invoice layout: which
+# text identifies the vendor, where the header fields live (regular
+# expressions), what the line-item rows look like, and which number format
+# the document uses. Adding a new vendor means adding one block like these;
+# no code changes are needed.
+
+# Date used for the "invoice dated in the future" check. Set so demo results
+# are reproducible. For real files, delete this line to use today's date.
+reference_date: "2026-04-30"
+
+customer_match:
+  # exact match after normalising is always applied.
+  # fuzzy score (rapidfuzz Levenshtein ratio, 0-100):
+  auto_apply_threshold: 66   # >= 66 AND a clear winner -> auto-applied
+  review_threshold: 55       # 55+ (or a close call) -> Review sheet
+  min_margin: 12             # required lead over the runner-up for auto-apply
+
+# Aliases used when cleaning the POS export: left side is the canonical
+# value, right side every spelling accepted for it.
+region_aliases:
+  North: ["North", "north", "North ", "N."]
+  South: ["South", "SOUTH", "S."]
+  East: ["East", "east ", "E."]
+  West: ["West", "W.", "west"]
+
+# Conventions declared per sales source. number_format: "us" ('.' decimal,
+# ',' thousands) or "eu" (',' decimal, '.' thousands) - a value that does
+# not strictly match its declared convention is sent to review, never
+# guessed. date_order declares which way d/m is read when ambiguous.
+sales:
+  pos:
+    number_format: us
+    date_order: mdy        # US point-of-sale: 01/02/26 = Jan 2 2026
+  online:
+    number_format: us
+    timestamp_formats: ["%Y-%m-%dT%H:%M:%SZ"]
+
+# Filenames (without extension) the pipeline looks for inside the input
+# folder, next to the invoice PDFs.
+inputs:
+  pos_export: "pos_sales_export"
+  online_export: "online_sales_export"
+  customer_master: "customer_master"
+  vendor_master: "vendor_master"
+  # optional: ground truth for the customer matcher, demo-only. When this
+  # csv is present the run also writes results/matching_eval.*.
+  matching_truth: "matching_truth"
+
+vendors:
+  # Layout 1 - classic table. Long invoices continue on a second page.
+  NPP:
+    name: "Northern Pine Paper Co."
+    detect: "Northern Pine Paper Co."
+    number_format: us
+    fields:
+      invoice_number: 'Invoice No\.:\s*(NPP-\d+)'
+      invoice_date: 'Invoice Date:\s*(\d{2}/\d{2}/\d{4})'
+      tax_id: 'Tax ID:\s*([0-9-]+)'
+      tax: 'Tax \(8%\):\s*\$?([\d,]+\.\d{2})'
+      total: 'Total Due:\s*\$?([\d,]+\.\d{2})'
+    date_formats: ["%m/%d/%Y"]
+    lines:
+      strategy: table               # pdfplumber ruled-table extraction
+      columns: [desc, qty, unit, amount]
+      header: 'Item Description\s+Qty\s+Unit Price\s+Amount'
+      row: '^(?P<desc>.+)\s+(?P<qty>\d+)\s+(?P<unit>[\d,]+\.\d{2})\s+(?P<amount>[\d,]+\.\d{2})\s*$'
+      end: 'Subtotal:|Continued'
+
+  # Layout 2 - invoice number inside a bordered box at the top right.
+  BHS:
+    name: "Blue Harbor Office Supply"
+    detect: "Blue Harbor Office Supply"
+    number_format: us
+    fields:
+      invoice_number: 'No\.\s*(BHS-\d+)'
+      invoice_date: 'Invoice Date:\s*(\d{2}-[A-Za-z]{3}-\d{4})'
+      tax_id: 'Vendor Tax ID:\s*([0-9-]+)'
+      total: 'AMOUNT DUE:\s*\$?([\d,]+\.\d{2})'
+    date_formats: ["%d-%b-%Y"]
+    lines:
+      strategy: table
+      columns: [desc, qty, unit, amount]
+      header: 'PRODUCT\s+QTY\s+UNIT PRICE\s+EXTENDED'
+      row: '^(?P<desc>.+)\s+(?P<qty>\d+)\s+(?P<unit>[\d,]+\.\d{2})\s+(?P<amount>[\d,]+\.\d{2})\s*$'
+      end: 'AMOUNT DUE'
+
+  # Layout 3 - German-style invoice, European number format (1.234,56).
+  AES:
+    name: "Alpen East Supplies"
+    detect: "Alpen East Supplies"
+    number_format: eu
+    fields:
+      invoice_number: 'Invoice:\s*(AES-\d+)'
+      invoice_date: 'Datum:\s*(\d{2}\.\d{2}\.\d{4})'
+      tax_id: 'USt-IdNr:\s*([A-Z0-9]+)'
+      total: 'Gesamtbetrag:\s*([\d.]+,\d{2})\s*EUR'
+    date_formats: ["%d.%m.%Y"]
+    lines:
+      strategy: table
+      columns: [desc, qty, unit, amount]
+      header: 'Beschreibung\s+Menge\s+Einzelpreis\s+Betrag'
+      row: '^(?P<desc>.+)\s+(?P<qty>\d+)\s+(?P<unit>[\d.]+,\d{2})\s+(?P<amount>[\d.]+,\d{2})\s*$'
+      end: 'Zwischensumme'
+
+  # Layout 4 - discount line and shipping line inside the item table.
+  MPS:
+    name: "Maple Pine Freight & Pack"
+    detect: "Maple Pine Freight & Pack"
+    number_format: us
+    fields:
+      invoice_number: 'Invoice #:\s*(MPS-\d+)'
+      invoice_date: 'Date:\s*(\d{4}-\d{2}-\d{2})'
+      tax_id: 'Tax ID:\s*([0-9-]+)'
+      total: 'TOTAL:\s*\$?(-?[\d,]+\.\d{2})'
+    date_formats: ["%Y-%m-%d"]
+    lines:
+      strategy: table
+      columns: [desc, qty, unit, amount]
+      header: 'Line Item\s+Qty\s+Rate\s+Amount'
+      row: '^(?P<desc>.+)\s+(?P<qty>\d+)\s+(?P<unit>-?[\d,]+\.\d{2})\s+(?P<amount>-?[\d,]+\.\d{2})\s*$'
+      end: 'TOTAL'
+      # rows whose description matches these are kept but labelled
+      discount_desc: '^Discount'
+      shipping_desc: '^Shipping & Handling'
+
+  # Layout 5 - credit notes: the whole document is negative.
+  CRS:
+    name: "Cedar Ridge Supply"
+    detect: "Cedar Ridge Supply"
+    number_format: us
+    document_kind: credit_note
+    fields:
+      invoice_number: 'Credit Note No\.:\s*(CRS-\d+)'
+      invoice_date: 'Date:\s*(\d{2}/\d{2}/\d{2})'
+      tax_id: 'Tax ID:\s*([0-9-]+)'
+      total: 'Total Credit:\s*-\$?([\d,]+\.\d{2})'
+      total_sign: -1
+    date_formats: ["%m/%d/%y"]
+    lines:
+      strategy: table
+      columns: [desc, qty, unit, amount]
+      header: 'Description\s+Qty\s+Unit Credit\s+Amount'
+      row: '^(?P<desc>.+)\s+(?P<qty>\d+)\s+(?P<unit>-[\d,]+\.\d{2})\s+(?P<amount>-[\d,]+\.\d{2})\s*$'
+      end: 'Total Credit'
